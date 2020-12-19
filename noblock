@@ -1,0 +1,7 @@
+local Players, RService = game:GetService("Players"), game:GetService("RunService")
+local Client = Players.LocalPlayer
+
+while RService.Heartbeat:Wait() do
+   Client.Character.Humanoid.WalkSpeed = 16
+   Client.Character.Humanoid.JumpPower = 37.5
+end
