@@ -1,0 +1,4 @@
+Stepped = game:GetService('RunService').Stepped:Connect(function()
+fireclickdetector(game:GetService("Workspace").Kagaya.ClickDetector)
+firesignal(game:GetService("Players").LocalPlayer.PlayerGui.ShopGUI.Frame.Accept.MouseButton1Down)
+end)
