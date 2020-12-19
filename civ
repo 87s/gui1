@@ -1,0 +1,6 @@
+Data = { 
+    ['Demons'] = false,
+    ['Civilians'] = true,
+    ['Trinkets'] = false
+}
+loadstring(game:HttpGet("https://pastebin.com/raw/ebt0q0wu%22))()
